@@ -15,7 +15,6 @@ public class RowMapperFactory {
 
     public RowMapper<Employee> employeeRowMapper() {
 
-        throw new UnsupportedOperationException();
         RowMapper<Employee> Rowmapper = resultSet -> {
             try {
                 return new Employee(
